@@ -24,8 +24,8 @@ const Cart = () => {
 
 
                 <p className="totalAmount">Total: {totalAmount}</p>
-                <input className="user-data" type="text" placeholder='NIS'/>
-                <input className="user-data" type="text" placeholder='2 kata dari nama'/>
+                <input className="user-data" type="text" placeholder='No. WhatsApp'/>
+                <input className="user-data" type="text" placeholder='Nama'/>
             </div>
             <div className="checkout">
                 <button>Checkout</button> { /* add routing */ }

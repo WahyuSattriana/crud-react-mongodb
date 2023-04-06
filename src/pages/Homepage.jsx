@@ -19,7 +19,7 @@ const Homepage = () => {
     <div className='Homepage'>
       <div className="container">
         <header>
-          <h1>Selamat datang di<br/>Kedai Djadoel. Lapar? kami atasi</h1>
+          <h1>Ini adalah<br/>Kedai <span className='highlight'>Bali Djadoel.</span> Kami atasi laparmu</h1>
           <div className="btn-scrl" onClick={() => goto(linkRef.current)}>
             <p>Mulai belanja ↓</p>
           </div>
